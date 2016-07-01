@@ -1,23 +1,44 @@
 body {
-font-family: verdana;
+    background-color:black;
+    font-family: verdana;
 }
-* {padding:5px;
+
+#title {
+    padding:5px;
+    background-color:red;
+}
+#intro {
+    padding:5px;
+    background-color:#FFA200;
+}
+#opinion {
+    padding:5px;
+    background-color:#00A03E;
+}
+#evidence {
+    padding:5px;
+    background-color:#24A8AC;
+}
+#conclusion {
+    padding:5px;
+    background-color:#0087CB;
+}
+#links {
+    padding:5px;
+    background-color:#982395;
 }
 h1 {
-margin:0px;
+    margin:0px;
 }
-h2{
-  margin:0px;
+h2 {
+    margin:0px;
 }
-
-h3{
-  margin:0px;
+h3 {
+    margin:0px;
 }
-
-h4{
-  margin:0px;
+h4 {
+    margin:0px;
 }
-
 h5 {
-  margin:0px;
+    margin:0px;
 }
