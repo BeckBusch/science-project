@@ -1,29 +1,35 @@
 body {
-/* background-color:lightGrey;*/
+/*    background-color:black;*/
     font-family: verdana;
 }
 
 #title {
+    border-radius:5px;
     padding:5px;
     background-color:red;
 }
 #intro {
+       border-radius:5px;
     padding:5px;
     background-color:#FFA200;
 }
 #opinion {
+       border-radius:5px;
     padding:5px;
     background-color:#00A03E;
 }
 #evidence {
+       border-radius:5px;
     padding:5px;
     background-color:#24A8AC;
 }
 #conclusion {
+       border-radius:5px;
     padding:5px;
     background-color:#0087CB;
 }
 #links {
+       border-radius:5px;
     padding:5px;
     background-color:#982395;
 }
