@@ -3,8 +3,8 @@ body {
     font-family: verdana;
 }
 
-#intro:hover {
-    transparent:0.9;
+#title:hover, #intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
+    opacity:0.8;
 }
 
 #title {
