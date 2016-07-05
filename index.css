@@ -2,6 +2,12 @@ body {
 /*    background-color:black;*/
     font-family: verdana;
 }
+p {
+    display:none;
+}
+#intro-text:hover {
+    display:block;
+}
 
 #title {
     border-radius:5px;
