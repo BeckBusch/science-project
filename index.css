@@ -3,6 +3,24 @@ body {
     font-family: verdana;
 }
 #title:hover, #intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
+  -webkit-animation: in ease-in 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+}
+
+@-webkit-keyframes in {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(70px,0px)  ;
+  }
+}
+
+
+
+#title, #intro, #opinion, #evidence, #conclusion, #links{
   -webkit-animation: out linear 0.5s;
   -webkit-animation-iteration-count: 1;
   -webkit-transform-origin: 50% 50%;
@@ -17,6 +35,7 @@ body {
     -webkit-transform:  translate(0px,0px)  ;
   }
 }
+
 
 
 #title:hover, #intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
