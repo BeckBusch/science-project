@@ -5,7 +5,7 @@ body {
 p {
     display:none;
 }
-#intro-text:hover {
+#intro-text:hover, #intro:hover {
     display:block;
 }
 
