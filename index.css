@@ -2,11 +2,9 @@ body {
 /*    background-color:black;*/
     font-family: verdana;
 }
-p {
-    display:none;
-}
-#intro-text:hover, #intro:hover {
-    display:block;
+
+div:hover {
+    transparent:0.9;
 }
 
 #title {
