@@ -2,7 +2,7 @@ body {
 /*    background-color:black;*/
     font-family: verdana;
 }
-#title:hover, #intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
+#intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
   -webkit-animation: in ease-in 0.5s;
   -webkit-animation-iteration-count: 1;
   -webkit-transform-origin: 50% 50%;
@@ -20,7 +20,7 @@ body {
 
 
 
-#title, #intro, #opinion, #evidence, #conclusion, #links{
+#intro, #opinion, #evidence, #conclusion, #links{
   -webkit-animation: out linear 0.5s;
   -webkit-animation-iteration-count: 1;
   -webkit-transform-origin: 50% 50%;
@@ -38,7 +38,7 @@ body {
 
 
 
-#title:hover, #intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
+ #intro:hover, #opinion:hover, #evidence:hover, #conclusion:hover, #links:hover {
     opacity:0.8;
 }
 
