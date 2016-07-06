@@ -36,11 +36,9 @@ body {
 @-webkit-keyframes out {
   0% {
     -webkit-transform:  translate(70px,0px);
-    width:1160px;
+  
   }
-  90% {
-      width:initial;
-  }
+  
   100% {
     -webkit-transform:  translate(0px,0px);
     width:initial;
