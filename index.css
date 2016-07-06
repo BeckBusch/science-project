@@ -38,7 +38,7 @@ body {
     -webkit-transform:  translate(70px,0px);
     width:1160px;
   }
-  10% {
+  90% {
       width:initial;
   }
   100% {
