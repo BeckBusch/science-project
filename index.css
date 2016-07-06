@@ -11,7 +11,8 @@ body {
 
 @-webkit-keyframes in {
   0% {
-    -webkit-transform:  translate(0px,0px)  ;
+    -webkit-transform:  translate(0px,0px);
+    width:initial;
   }
   100% {
     -webkit-transform:  translate(70px,0px);
@@ -31,7 +32,8 @@ body {
 
 @-webkit-keyframes out {
   0% {
-    -webkit-transform:  translate(70px,0px)  ;
+    -webkit-transform:  translate(70px,0px);
+    width:1160px;
   }
   100% {
     -webkit-transform:  translate(0px,0px);
